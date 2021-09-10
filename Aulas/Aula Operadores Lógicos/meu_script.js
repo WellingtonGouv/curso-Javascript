@@ -23,3 +23,7 @@ if(media >= 5 && faltas <=15){
 else{
     document.write("Reprovado");
 }
+
+var resultado = (media >=5 && faltas <= 15) ? "Aprovado" : "Reprovado";
+
+document.write(resultado);
